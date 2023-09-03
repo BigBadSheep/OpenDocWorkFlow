@@ -24,6 +24,11 @@ def home():
     return render_template("home.html", user=current_user)
 
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
 @views.route('/delete-note', methods=['POST'])
 def delete_note():  
     note = json.loads(request.data) # this function expects a JSON from the INDEX.js file 
